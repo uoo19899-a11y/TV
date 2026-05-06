@@ -1,5 +1,5 @@
 lxml
-ujson
+orjson
 pyquery
 requests
 cachetools
