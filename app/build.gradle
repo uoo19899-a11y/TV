@@ -55,9 +55,9 @@ android {
     signingConfigs {
         release {
             storeFile file('my-release-key.keystore') // 密鑰路徑
-            storePassword 'fongn'    // 密鑰庫密碼
-            keyAlias 'fongn'                 // 別名
-            keyPassword 'fongn'      }
+            storePassword 'fongni'    // 密鑰庫密碼
+            keyAlias 'fongni'                 // 別名
+            keyPassword 'fongni'      }
     }
 
     buildTypes {
