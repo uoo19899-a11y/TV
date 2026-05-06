@@ -54,11 +54,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file(localProps['storeFile'])
-            keyAlias localProps['keyAlias']
-            keyPassword localProps['storePassword']
-            storePassword localProps['storePassword']
-        }
+            storeFile file('my-release-key.keystore') // 密鑰路徑
+            storePassword 'fongn'    // 密鑰庫密碼
+            keyAlias 'fongn'                 // 別名
+            keyPassword 'fongn'      }
     }
 
     buildTypes {
